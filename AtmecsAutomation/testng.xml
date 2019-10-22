@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="1" name="HomepageTest">
+
+		<classes>
+			<class name="com.atmecs.testScripts.HomePagetestscripts" />
+		</classes>
+	</test>
+
+
+	<test thread-count="1" name="AnchorsTest">
+
+		<classes>
+
+			<class name="com.atmecs.testScripts.ValidateAnchors" />
+
+		</classes>
+	</test>
+
+
+	<test thread-count="1" name="InsightPageTest">
+		<classes>
+			<class name="com.atmecs.testScripts.InsightsValidation" />
+		</classes>
+	</test>
+
+	<test thread-count="1" name="HomepagemoreInfoTest">
+		<classes>
+			<class
+				name="com.atmecs.testScripts.HomePageMoreInfotestscripts" />
+		</classes>
+	</test>
+
+</suite> <!-- Suite -->

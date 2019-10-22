@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="HomepageTest(failed)" verbose="0">
+    <classes>
+      <class name="com.atmecs.testScripts.HomePagetestscripts">
+        <methods>
+          <include name="clickHeaderPartners"/>
+          <include name="validatefooterForContacts"/>
+          <include name="validatefooterForCareers"/>
+          <include name="print"/>
+          <include name="clickHeaderMedia"/>
+          <include name="validatefooterForInsights"/>
+          <include name="validatefooterForPartner"/>
+          <include name="clickHeaderAboutUs"/>
+          <include name="intitailizeBrowser"/>
+          <include name="clickContactUs"/>
+          <include name="validatefooterForServices"/>
+          <include name="validatefooterForMedia"/>
+          <include name="endReport"/>
+          <include name="clickInsights"/>
+          <include name="tearDown"/>
+          <include name="clickHeaderCareers"/>
+          <include name="startReport"/>
+          <include name="clickHeaderServices"/>
+          <include name="homePageRedirection"/>
+          <include name="validatefooterForAboutUs"/>
+        </methods>
+      </class> <!-- com.atmecs.testScripts.HomePagetestscripts -->
+    </classes>
+  </test> <!-- HomepageTest(failed) -->
+  <test thread-count="5" name="AnchorsTest(failed)" verbose="0">
+    <classes>
+      <class name="com.atmecs.testScripts.ValidateAnchors">
+        <methods>
+          <include name="moveToInfrastructure"/>
+          <include name="print"/>
+          <include name="isDigitalLifeAnchorPresent"/>
+          <include name="isInfrastructureAnchorPresent"/>
+          <include name="endReport"/>
+          <include name="tearDown"/>
+          <include name="moveToDigitalLife"/>
+          <include name="startReport"/>
+          <include name="intitailizeBrowser"/>
+        </methods>
+      </class> <!-- com.atmecs.testScripts.ValidateAnchors -->
+    </classes>
+  </test> <!-- AnchorsTest(failed) -->
+  <test thread-count="5" name="InsightPageTest(failed)" verbose="0">
+    <classes>
+      <class name="com.atmecs.testScripts.InsightsValidation">
+        <methods>
+          <include name="validateBreadCrumb"/>
+          <include name="print"/>
+          <include name="anchorRedirection"/>
+          <include name="endReport"/>
+          <include name="validateDate"/>
+          <include name="validateErrorMsg"/>
+          <include name="tearDown"/>
+          <include name="startReport"/>
+          <include name="intitailizeBrowser"/>
+          <include name="validateTitle"/>
+        </methods>
+      </class> <!-- com.atmecs.testScripts.InsightsValidation -->
+    </classes>
+  </test> <!-- InsightPageTest(failed) -->
+  <test thread-count="5" name="HomepagemoreInfoTest(failed)" verbose="0">
+    <classes>
+      <class name="com.atmecs.testScripts.HomePageMoreInfotestscripts">
+        <methods>
+          <include name="print"/>
+          <include name="endReport"/>
+          <include name="clickMoreInfo"/>
+          <include name="tearDown"/>
+          <include name="clickExplorenow"/>
+          <include name="startReport"/>
+          <include name="intitailizeBrowser"/>
+        </methods>
+      </class> <!-- com.atmecs.testScripts.HomePageMoreInfotestscripts -->
+    </classes>
+  </test> <!-- HomepagemoreInfoTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="tests" name="Failed suite [Test-class Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="3" parallel="tests" name="Test2(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.atmecs.testScripts.InsightsValidation">
+        <methods>
+          <include name="validateBreadCrumb"/>
+          <include name="initializeVariable"/>
+          <include name="anchorRedirection"/>
+          <include name="validateDate"/>
+          <include name="validateErrorMsg"/>
+          <include name="intitailizeBrowser"/>
+          <include name="tearResource"/>
+          <include name="validateTitle"/>
+        </methods>
+      </class> <!-- com.atmecs.testScripts.InsightsValidation -->
+      <class name="com.atmecs.testScripts.ValidateAnchors">
+        <methods>
+          <include name="isInfrastructureAnchorPresent" invocation-numbers="0 1 2 3 4"/>
+          <include name="initializeVariable"/>
+          <include name="intitailizeBrowser"/>
+          <include name="tearResource"/>
+        </methods>
+      </class> <!-- com.atmecs.testScripts.ValidateAnchors -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+  <test thread-count="3" parallel="tests" name="Test1(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.atmecs.testScripts.ValidateAnchors">
+        <methods>
+          <include name="isInfrastructureAnchorPresent" invocation-numbers="0 1 2 3 4"/>
+          <include name="initializeVariable"/>
+          <include name="intitailizeBrowser"/>
+          <include name="tearResource"/>
+        </methods>
+      </class> <!-- com.atmecs.testScripts.ValidateAnchors -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+  <test thread-count="3" parallel="tests" name="Test3(failed)">
+    <parameter name="browser" value="ie"/>
+    <classes>
+      <class name="com.atmecs.testScripts.HomePageMoreInfotestscripts">
+        <methods>
+          <include name="initializeVariable"/>
+          <include name="clickMoreInfo" invocation-numbers="3 4"/>
+          <include name="clickExplorenow"/>
+          <include name="intitailizeBrowser"/>
+          <include name="tearResource"/>
+        </methods>
+      </class> <!-- com.atmecs.testScripts.HomePageMoreInfotestscripts -->
+      <class name="com.atmecs.testScripts.InsightsValidation">
+        <methods>
+          <include name="validateBreadCrumb"/>
+          <include name="initializeVariable"/>
+          <include name="anchorRedirection"/>
+          <include name="validateDate"/>
+          <include name="validateErrorMsg"/>
+          <include name="intitailizeBrowser"/>
+          <include name="tearResource"/>
+          <include name="validateTitle"/>
+        </methods>
+      </class> <!-- com.atmecs.testScripts.InsightsValidation -->
+      <class name="com.atmecs.testScripts.ValidateAnchors">
+        <methods>
+          <include name="isInfrastructureAnchorPresent" invocation-numbers="0 1 2 3 4"/>
+          <include name="initializeVariable"/>
+          <include name="intitailizeBrowser"/>
+          <include name="tearResource"/>
+        </methods>
+      </class> <!-- com.atmecs.testScripts.ValidateAnchors -->
+    </classes>
+  </test> <!-- Test3(failed) -->
+</suite> <!-- Failed suite [Test-class Suite] -->

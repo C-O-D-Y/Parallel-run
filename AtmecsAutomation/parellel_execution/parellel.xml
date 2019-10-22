@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test-class Suite" parallel="tests" thread-count="3">
+	<test name="Test1">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.atmecs.testScripts.HomePagetestscripts" />
+			<class name="com.atmecs.testScripts.ValidateAnchors" />
+			<class name="com.atmecs.testScripts.InsightsValidation" />
+			<class
+				name="com.atmecs.testScripts.HomePageMoreInfotestscripts" />
+		</classes>
+	</test>
+	<test name="Test2">
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="com.atmecs.testScripts.HomePagetestscripts" />
+			<class name="com.atmecs.testScripts.ValidateAnchors" />
+			<class name="com.atmecs.testScripts.InsightsValidation" />
+			<class
+				name="com.atmecs.testScripts.HomePageMoreInfotestscripts" />
+		</classes>
+	</test>
+	<test name="Test3">
+		<parameter name="browser" value="ie" />
+		<classes>
+			<class name="com.atmecs.testScripts.HomePagetestscripts" />
+			<class name="com.atmecs.testScripts.ValidateAnchors" />
+			<class name="com.atmecs.testScripts.InsightsValidation" />
+			<class
+				name="com.atmecs.testScripts.HomePageMoreInfotestscripts" />
+		</classes>
+	</test>
+</suite>

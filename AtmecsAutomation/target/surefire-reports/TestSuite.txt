@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 495, Failures: 4, Errors: 0, Skipped: 491, Time elapsed: 5.504 s <<< FAILURE! - in TestSuite
+intitailizeBrowser(com.atmecs.testScripts.HomePagetestscripts)  Time elapsed: 1.232 s  <<< FAILURE!
+java.lang.NullPointerException
+
+intitailizeBrowser(com.atmecs.testScripts.ValidateAnchors)  Time elapsed: 4.22 s  <<< FAILURE!
+java.lang.NullPointerException
+
+intitailizeBrowser(com.atmecs.testScripts.InsightsValidation)  Time elapsed: 4.47 s  <<< FAILURE!
+java.lang.NullPointerException
+
+intitailizeBrowser(com.atmecs.testScripts.HomePageMoreInfotestscripts)  Time elapsed: 4.548 s  <<< FAILURE!
+java.lang.NullPointerException
+

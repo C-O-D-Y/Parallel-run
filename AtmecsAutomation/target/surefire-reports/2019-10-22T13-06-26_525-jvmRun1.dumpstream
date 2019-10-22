@@ -1,0 +1,418 @@
+# Created at 2019-10-22T13:07:58.441
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:390)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+
+
+# Created at 2019-10-22T13:08:01.429
+Unexpected IOException: 8,1,com.atmecs.testScripts.ValidateAnchors,isInfrastructureAnchorPresent(com.atmecs.testScripts.ValidateAnchors),null,Unable to find element with xpath == //div[@id='footer']//a[contains(text()\002C'Infrastructure Management')]\000AFor documentation on this error\002C please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'ATMECSINLT-038'\002C ip: '55.55.52.193'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '12.0.1'\000ADriver info: org.openqa.selenium.ie.InternetExplorerDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: internet explorer\002C browserVersion: 11\002C javascriptEnabled: true\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C se:ieOptions: {browserAttachTimeout: 0\002C elementScrollBehavior: 0\002C enablePersistentHover: true\002C ie.browserCommandLineSwitches: \002C ie.ensureCleanSession: false\002C ie.fileUploadDialogTimeout: 3000\002C ie.forceCreateProcessApi: false\002C ignoreProtectedModeSettings: false\002C ignoreZoomSetting: false\002C initialBrowserUrl: http://www.atmecs.com/\002C nativeEvents: true\002C requireWindowFocus: false}\002C setWindowRect: true\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}}\000ASession ID: cf3508f4-e7be-44a3-a6ef-dbc2acc20bb0\000A*** Element info: {Using=xpath\002C value=//div[@id='footer']//a[contains(text()\002C'Infrastructure Management')]},null,Unable to find element with xpath == //div[@id='footer']//a[contains(text()\002C'Infrastructure Management')]\000AFor documentation on this error\002C please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'ATMECSINLT-038'\002C ip: '55.55.52.193'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '12.0.1'\000ADriver info: org.openqa.selenium.ie.InternetExplorerDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: internet explorer\002C browserVersion: 11\002C javascriptEnabled: true\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C se:ieOptions: {browserAttachTimeout: 0\002C elementScrollBehavior: 0\002C enablePersistentHover: true\002C ie.browserCommandLineSwitches: \002C ie.ensureCleanSession: false\002C ie.fileUploadDialogTimeout: 3000\002C ie.forceCreateProcessApi: false\002C ignoreProtectedModeSettings: false\002C ignoreZoomSetting: false\002C initialBrowserUrl: http://www.atmecs.com/\002C nativeEvents: true\002C requireWindowFocus: false}\002C setWindowRect: true\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}}\000ASession ID: cf3508f4-e7be-44a3-a6ef-dbc2acc20bb0\000A*** Element info: {Using=xpath\002C value=//div[@id='footer']//a[contains(text()\002C'Infrastructure Management')]},ValidateAnchors.isInfrastructureAnchorPresent:44 \00BB NoSuchElement Unable to fin...,org.openqa.selenium.NoSuchElementException: \000AUnable to find element with xpath == //div[@id='footer']//a[contains(text()\002C'Infrastructure Management')]\000AFor documentation on this error\002C please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'ATMECSINLT-038'\002C ip: '55.55.52.193'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '12.0.1'\000ADriver info: org.openqa.selenium.ie.InternetExplorerDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: internet explorer\002C browserVersion: 11\002C javascriptEnabled: true\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C se:ieOptions: {browserAttachTimeout: 0\002C elementScrollBehavior: 0\002C enablePersistentHover: true\002C ie.browserCommandLineSwitches: \002C ie.ensureCleanSession: false\002C ie.fileUploadDialogTimeout: 3000\002C ie.forceCreateProcessApi: false\002C ignoreProtectedModeSettings: false\002C ignoreZoomSetting: false\002C initialBrowserUrl: http://www.atmecs.com/\002C nativeEvents: true\002C requireWindowFocus: false}\002C setWindowRect: true\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}}\000ASession ID: cf3508f4-e7be-44a3-a6ef-dbc2acc20bb0\000A*** Element info: {Using=xpath\002C value=//div[@id='footer']//a[contains(text()\002C'Infrastructure Management')]}\000A\0009at com.atmecs.testScripts.ValidateAnchors.isInfrastructureAnchorPresent(ValidateAnchors.java:44)\000A
+
+
+# Created at 2019-10-22T13:08:01.457
+Unexpected IOException: 8,1,com.atmecs.testScripts.ValidateAnchors,tearDown(com.atmecs.testScripts.ValidateAnchors),null,Unable to get browser\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'ATMECSINLT-038'\002C ip: '55.55.52.193'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '12.0.1'\000ADriver info: org.openqa.selenium.ie.InternetExplorerDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: internet explorer\002C browserVersion: 11\002C javascriptEnabled: true\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C se:ieOptions: {browserAttachTimeout: 0\002C elementScrollBehavior: 0\002C enablePersistentHover: true\002C ie.browserCommandLineSwitches: \002C ie.ensureCleanSession: false\002C ie.fileUploadDialogTimeout: 3000\002C ie.forceCreateProcessApi: false\002C ignoreProtectedModeSettings: false\002C ignoreZoomSetting: false\002C initialBrowserUrl: http://www.atmecs.com/\002C nativeEvents: true\002C requireWindowFocus: false}\002C setWindowRect: true\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}}\000ASession ID: cf3508f4-e7be-44a3-a6ef-dbc2acc20bb0,null,Unable to get browser\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'ATMECSINLT-038'\002C ip: '55.55.52.193'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '12.0.1'\000ADriver info: org.openqa.selenium.ie.InternetExplorerDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: internet explorer\002C browserVersion: 11\002C javascriptEnabled: true\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C se:ieOptions: {browserAttachTimeout: 0\002C elementScrollBehavior: 0\002C enablePersistentHover: true\002C ie.browserCommandLineSwitches: \002C ie.ensureCleanSession: false\002C ie.fileUploadDialogTimeout: 3000\002C ie.forceCreateProcessApi: false\002C ignoreProtectedModeSettings: false\002C ignoreZoomSetting: false\002C initialBrowserUrl: http://www.atmecs.com/\002C nativeEvents: true\002C requireWindowFocus: false}\002C setWindowRect: true\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}}\000ASession ID: cf3508f4-e7be-44a3-a6ef-dbc2acc20bb0,ValidateAnchors>ExtentReport.tearDown:73->ExtentReport.getScreenshot:52 \00BB NoSuchWindow,org.openqa.selenium.NoSuchWindowException: \000AUnable to get browser\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'ATMECSINLT-038'\002C ip: '55.55.52.193'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '12.0.1'\000ADriver info: org.openqa.selenium.ie.InternetExplorerDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: internet explorer\002C browserVersion: 11\002C javascriptEnabled: true\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C se:ieOptions: {browserAttachTimeout: 0\002C elementScrollBehavior: 0\002C enablePersistentHover: true\002C ie.browserCommandLineSwitches: \002C ie.ensureCleanSession: false\002C ie.fileUploadDialogTimeout: 3000\002C ie.forceCreateProcessApi: false\002C ignoreProtectedModeSettings: false\002C ignoreZoomSetting: false\002C initialBrowserUrl: http://www.atmecs.com/\002C nativeEvents: true\002C requireWindowFocus: false}\002C setWindowRect: true\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}}\000ASession ID: cf3508f4-e7be-44a3-a6ef-dbc2acc20bb0\000A
+
+
+# Created at 2019-10-22T13:08:01.457
+Unexpected IOException: 9,1,com.atmecs.testScripts.ValidateAnchors,isInfrastructureAnchorPresent(com.atmecs.testScripts.ValidateAnchors),null,Unable to get browser\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'ATMECSINLT-038'\002C ip: '55.55.52.193'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '12.0.1'\000ADriver info: org.openqa.selenium.ie.InternetExplorerDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: internet explorer\002C browserVersion: 11\002C javascriptEnabled: true\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C se:ieOptions: {browserAttachTimeout: 0\002C elementScrollBehavior: 0\002C enablePersistentHover: true\002C ie.browserCommandLineSwitches: \002C ie.ensureCleanSession: false\002C ie.fileUploadDialogTimeout: 3000\002C ie.forceCreateProcessApi: false\002C ignoreProtectedModeSettings: false\002C ignoreZoomSetting: false\002C initialBrowserUrl: http://www.atmecs.com/\002C nativeEvents: true\002C requireWindowFocus: false}\002C setWindowRect: true\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}}\000ASession ID: cf3508f4-e7be-44a3-a6ef-dbc2acc20bb0,null
+
+
+# Created at 2019-10-22T13:08:01.461
+Unexpected IOException: 9,1,com.atmecs.testScripts.ValidateAnchors,tearDown(com.atmecs.testScripts.ValidateAnchors),null,null,null
+
+
+# Created at 2019-10-22T13:08:01.461
+Unexpected IOException: 9,1,com.atmecs.testScripts.ValidateAnchors,isInfrastructureAnchorPresent(com.atmecs.testScripts.ValidateAnchors),null,Unable to get browser\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'ATMECSINLT-038'\002C ip: '55.55.52.193'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '12.0.1'\000ADriver info: org.openqa.selenium.ie.InternetExplorerDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: internet explorer\002C browserVersion: 11\002C javascriptEnabled: true\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C se:ieOptions: {browserAttachTimeout: 0\002C elementScrollBehavior: 0\002C enablePersistentHover: true\002C ie.browserCommandLineSwitches: \002C ie.ensureCleanSession: false\002C ie.fileUploadDialogTimeout: 3000\002C ie.forceCreateProcessApi: false\002C ignoreProtectedModeSettings: false\002C ignoreZoomSetting: false\002C initialBrowserUrl: http://www.atmecs.com/\002C nativeEvents: true\002C requireWindowFocus: false}\002C setWindowRect: true\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}}\000ASession ID: cf3508f4-e7be-44a3-a6ef-dbc2acc20bb0,null
+
+
+# Created at 2019-10-22T13:08:01.465
+Unexpected IOException: 9,1,com.atmecs.testScripts.ValidateAnchors,tearDown(com.atmecs.testScripts.ValidateAnchors),null,null,null
+
+
+# Created at 2019-10-22T13:08:01.465
+Unexpected IOException: 9,1,com.atmecs.testScripts.ValidateAnchors,isInfrastructureAnchorPresent(com.atmecs.testScripts.ValidateAnchors),null,Unable to get browser\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'ATMECSINLT-038'\002C ip: '55.55.52.193'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '12.0.1'\000ADriver info: org.openqa.selenium.ie.InternetExplorerDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: internet explorer\002C browserVersion: 11\002C javascriptEnabled: true\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C se:ieOptions: {browserAttachTimeout: 0\002C elementScrollBehavior: 0\002C enablePersistentHover: true\002C ie.browserCommandLineSwitches: \002C ie.ensureCleanSession: false\002C ie.fileUploadDialogTimeout: 3000\002C ie.forceCreateProcessApi: false\002C ignoreProtectedModeSettings: false\002C ignoreZoomSetting: false\002C initialBrowserUrl: http://www.atmecs.com/\002C nativeEvents: true\002C requireWindowFocus: false}\002C setWindowRect: true\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}}\000ASession ID: cf3508f4-e7be-44a3-a6ef-dbc2acc20bb0,null
+
+
+# Created at 2019-10-22T13:08:01.465
+Unexpected IOException: 9,1,com.atmecs.testScripts.ValidateAnchors,tearDown(com.atmecs.testScripts.ValidateAnchors),null,null,null
+
+
+# Created at 2019-10-22T13:08:01.469
+Unexpected IOException: 9,1,com.atmecs.testScripts.ValidateAnchors,isInfrastructureAnchorPresent(com.atmecs.testScripts.ValidateAnchors),null,Unable to get browser\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'ATMECSINLT-038'\002C ip: '55.55.52.193'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '12.0.1'\000ADriver info: org.openqa.selenium.ie.InternetExplorerDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: internet explorer\002C browserVersion: 11\002C javascriptEnabled: true\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C se:ieOptions: {browserAttachTimeout: 0\002C elementScrollBehavior: 0\002C enablePersistentHover: true\002C ie.browserCommandLineSwitches: \002C ie.ensureCleanSession: false\002C ie.fileUploadDialogTimeout: 3000\002C ie.forceCreateProcessApi: false\002C ignoreProtectedModeSettings: false\002C ignoreZoomSetting: false\002C initialBrowserUrl: http://www.atmecs.com/\002C nativeEvents: true\002C requireWindowFocus: false}\002C setWindowRect: true\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}}\000ASession ID: cf3508f4-e7be-44a3-a6ef-dbc2acc20bb0,null
+
+
+# Created at 2019-10-22T13:08:01.469
+Unexpected IOException: 9,1,com.atmecs.testScripts.ValidateAnchors,tearDown(com.atmecs.testScripts.ValidateAnchors),null,null,null
+
+
+# Created at 2019-10-22T13:08:01.473
+Unexpected IOException: 9,1,com.atmecs.testScripts.ValidateAnchors,isInfrastructureAnchorPresent(com.atmecs.testScripts.ValidateAnchors),null,Unable to get browser\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'ATMECSINLT-038'\002C ip: '55.55.52.193'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '12.0.1'\000ADriver info: org.openqa.selenium.ie.InternetExplorerDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: internet explorer\002C browserVersion: 11\002C javascriptEnabled: true\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C se:ieOptions: {browserAttachTimeout: 0\002C elementScrollBehavior: 0\002C enablePersistentHover: true\002C ie.browserCommandLineSwitches: \002C ie.ensureCleanSession: false\002C ie.fileUploadDialogTimeout: 3000\002C ie.forceCreateProcessApi: false\002C ignoreProtectedModeSettings: false\002C ignoreZoomSetting: false\002C initialBrowserUrl: http://www.atmecs.com/\002C nativeEvents: true\002C requireWindowFocus: false}\002C setWindowRect: true\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}}\000ASession ID: cf3508f4-e7be-44a3-a6ef-dbc2acc20bb0,null
+
+
+# Created at 2019-10-22T13:08:01.473
+Unexpected IOException: 9,1,com.atmecs.testScripts.ValidateAnchors,tearDown(com.atmecs.testScripts.ValidateAnchors),null,null,null
+
+
+# Created at 2019-10-22T13:08:02.369
+Unexpected IOException with stream: S
+
+# Created at 2019-10-22T13:08:02.369
+Unexpected IOException with stream: t
+
+# Created at 2019-10-22T13:08:02.369
+Unexpected IOException with stream: a
+
+# Created at 2019-10-22T13:08:02.369
+Unexpected IOException with stream: r
+
+# Created at 2019-10-22T13:08:02.369
+Unexpected IOException with stream: t
+
+# Created at 2019-10-22T13:08:02.369
+Unexpected IOException with stream: e
+
+# Created at 2019-10-22T13:08:02.373
+Unexpected IOException with stream: d
+
+# Created at 2019-10-22T13:08:02.373
+Unexpected IOException with stream:  
+
+# Created at 2019-10-22T13:08:02.373
+Unexpected IOException with stream: I
+
+# Created at 2019-10-22T13:08:02.373
+Unexpected IOException with stream: n
+
+# Created at 2019-10-22T13:08:02.373
+Unexpected IOException with stream: t
+
+# Created at 2019-10-22T13:08:02.373
+Unexpected IOException with stream: e
+
+# Created at 2019-10-22T13:08:02.373
+Unexpected IOException with stream: r
+
+# Created at 2019-10-22T13:08:02.373
+Unexpected IOException with stream: n
+
+# Created at 2019-10-22T13:08:02.377
+Unexpected IOException with stream: e
+
+# Created at 2019-10-22T13:08:02.377
+Unexpected IOException with stream: t
+
+# Created at 2019-10-22T13:08:02.377
+Unexpected IOException with stream: E
+
+# Created at 2019-10-22T13:08:02.377
+Unexpected IOException with stream: x
+
+# Created at 2019-10-22T13:08:02.377
+Unexpected IOException with stream: p
+
+# Created at 2019-10-22T13:08:02.377
+Unexpected IOException with stream: l
+
+# Created at 2019-10-22T13:08:02.381
+Unexpected IOException with stream: o
+
+# Created at 2019-10-22T13:08:02.381
+Unexpected IOException with stream: r
+
+# Created at 2019-10-22T13:08:02.381
+Unexpected IOException with stream: e
+
+# Created at 2019-10-22T13:08:02.381
+Unexpected IOException with stream: r
+
+# Created at 2019-10-22T13:08:02.381
+Unexpected IOException with stream: D
+
+# Created at 2019-10-22T13:08:02.381
+Unexpected IOException with stream: r
+
+# Created at 2019-10-22T13:08:02.385
+Unexpected IOException with stream: i
+
+# Created at 2019-10-22T13:08:02.385
+Unexpected IOException with stream: v
+
+# Created at 2019-10-22T13:08:02.385
+Unexpected IOException with stream: e
+
+# Created at 2019-10-22T13:08:02.385
+Unexpected IOException with stream: r
+
+# Created at 2019-10-22T13:08:02.389
+Unexpected IOException with stream:  
+
+# Created at 2019-10-22T13:08:02.389
+Unexpected IOException with stream: s
+
+# Created at 2019-10-22T13:08:02.389
+Unexpected IOException with stream: e
+
+# Created at 2019-10-22T13:08:02.389
+Unexpected IOException with stream: r
+
+# Created at 2019-10-22T13:08:02.389
+Unexpected IOException with stream: v
+
+# Created at 2019-10-22T13:08:02.393
+Unexpected IOException with stream: e
+
+# Created at 2019-10-22T13:08:02.393
+Unexpected IOException with stream: r
+
+# Created at 2019-10-22T13:08:02.393
+Unexpected IOException with stream:  
+
+# Created at 2019-10-22T13:08:02.393
+Unexpected IOException with stream: (
+
+# Created at 2019-10-22T13:08:02.393
+Unexpected IOException with stream: 3
+
+# Created at 2019-10-22T13:08:02.397
+Unexpected IOException with stream: 2
+
+# Created at 2019-10-22T13:08:02.397
+Unexpected IOException with stream: -
+
+# Created at 2019-10-22T13:08:02.397
+Unexpected IOException with stream: b
+
+# Created at 2019-10-22T13:08:02.397
+Unexpected IOException with stream: i
+
+# Created at 2019-10-22T13:08:02.397
+Unexpected IOException with stream: t
+
+# Created at 2019-10-22T13:08:02.401
+Unexpected IOException with stream: )
+
+# Created at 2019-10-22T13:08:02.401
+Unexpected IOException with stream: 
+
+# Created at 2019-10-22T13:08:02.401
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-22T13:08:02.401
+Unexpected IOException with stream: 3
+
+# Created at 2019-10-22T13:08:02.401
+Unexpected IOException with stream: .
+
+# Created at 2019-10-22T13:08:02.405
+Unexpected IOException with stream: 1
+
+# Created at 2019-10-22T13:08:02.405
+Unexpected IOException with stream: 4
+
+# Created at 2019-10-22T13:08:02.405
+Unexpected IOException with stream: .
+
+# Created at 2019-10-22T13:08:02.405
+Unexpected IOException with stream: 0
+
+# Created at 2019-10-22T13:08:02.405
+Unexpected IOException with stream: .
+
+# Created at 2019-10-22T13:08:02.409
+Unexpected IOException with stream: 0
+
+# Created at 2019-10-22T13:08:02.409
+Unexpected IOException with stream: 
+
+# Created at 2019-10-22T13:08:02.409
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-22T13:08:02.409
+Unexpected IOException with stream: L
+
+# Created at 2019-10-22T13:08:02.409
+Unexpected IOException with stream: i
+
+# Created at 2019-10-22T13:08:02.413
+Unexpected IOException with stream: s
+
+# Created at 2019-10-22T13:08:02.413
+Unexpected IOException with stream: t
+
+# Created at 2019-10-22T13:08:02.413
+Unexpected IOException with stream: e
+
+# Created at 2019-10-22T13:08:02.413
+Unexpected IOException with stream: n
+
+# Created at 2019-10-22T13:08:02.413
+Unexpected IOException with stream: i
+
+# Created at 2019-10-22T13:08:02.417
+Unexpected IOException with stream: n
+
+# Created at 2019-10-22T13:08:02.417
+Unexpected IOException with stream: g
+
+# Created at 2019-10-22T13:08:02.417
+Unexpected IOException with stream:  
+
+# Created at 2019-10-22T13:08:02.417
+Unexpected IOException with stream: o
+
+# Created at 2019-10-22T13:08:02.417
+Unexpected IOException with stream: n
+
+# Created at 2019-10-22T13:08:02.421
+Unexpected IOException with stream:  
+
+# Created at 2019-10-22T13:08:02.421
+Unexpected IOException with stream: p
+
+# Created at 2019-10-22T13:08:02.421
+Unexpected IOException with stream: o
+
+# Created at 2019-10-22T13:08:02.421
+Unexpected IOException with stream: r
+
+# Created at 2019-10-22T13:08:02.421
+Unexpected IOException with stream: t
+
+# Created at 2019-10-22T13:08:02.421
+Unexpected IOException with stream:  
+
+# Created at 2019-10-22T13:08:02.425
+Unexpected IOException with stream: 4
+
+# Created at 2019-10-22T13:08:02.425
+Unexpected IOException with stream: 1
+
+# Created at 2019-10-22T13:08:02.425
+Unexpected IOException with stream: 1
+
+# Created at 2019-10-22T13:08:02.425
+Unexpected IOException with stream: 1
+
+# Created at 2019-10-22T13:08:02.429
+Unexpected IOException with stream: 5
+
+# Created at 2019-10-22T13:08:02.429
+Unexpected IOException with stream: 
+
+# Created at 2019-10-22T13:08:02.429
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-22T13:08:02.429
+Unexpected IOException with stream: O
+
+# Created at 2019-10-22T13:08:02.429
+Unexpected IOException with stream: n
+
+# Created at 2019-10-22T13:08:02.433
+Unexpected IOException with stream: l
+
+# Created at 2019-10-22T13:08:02.433
+Unexpected IOException with stream: y
+
+# Created at 2019-10-22T13:08:02.433
+Unexpected IOException with stream:  
+
+# Created at 2019-10-22T13:08:02.437
+Unexpected IOException with stream: l
+
+# Created at 2019-10-22T13:08:02.437
+Unexpected IOException with stream: o
+
+# Created at 2019-10-22T13:08:02.441
+Unexpected IOException with stream: c
+
+# Created at 2019-10-22T13:08:02.441
+Unexpected IOException with stream: a
+
+# Created at 2019-10-22T13:08:02.445
+Unexpected IOException with stream: l
+
+# Created at 2019-10-22T13:08:02.445
+Unexpected IOException with stream:  
+
+# Created at 2019-10-22T13:08:02.445
+Unexpected IOException with stream: c
+
+# Created at 2019-10-22T13:08:02.449
+Unexpected IOException with stream: o
+
+# Created at 2019-10-22T13:08:02.453
+Unexpected IOException with stream: n
+
+# Created at 2019-10-22T13:08:02.453
+Unexpected IOException with stream: n
+
+# Created at 2019-10-22T13:08:02.453
+Unexpected IOException with stream: e
+
+# Created at 2019-10-22T13:08:02.453
+Unexpected IOException with stream: c
+
+# Created at 2019-10-22T13:08:02.457
+Unexpected IOException with stream: t
+
+# Created at 2019-10-22T13:08:02.457
+Unexpected IOException with stream: i
+
+# Created at 2019-10-22T13:08:02.457
+Unexpected IOException with stream: o
+
+# Created at 2019-10-22T13:08:02.457
+Unexpected IOException with stream: n
+
+# Created at 2019-10-22T13:08:02.461
+Unexpected IOException with stream: s
+
+# Created at 2019-10-22T13:08:02.461
+Unexpected IOException with stream:  
+
+# Created at 2019-10-22T13:08:02.461
+Unexpected IOException with stream: a
+
+# Created at 2019-10-22T13:08:02.461
+Unexpected IOException with stream: r
+
+# Created at 2019-10-22T13:08:02.465
+Unexpected IOException with stream: e
+
+# Created at 2019-10-22T13:08:02.465
+Unexpected IOException with stream:  
+
+# Created at 2019-10-22T13:08:02.465
+Unexpected IOException with stream: a
+
+# Created at 2019-10-22T13:08:02.465
+Unexpected IOException with stream: l
+
+# Created at 2019-10-22T13:08:02.465
+Unexpected IOException with stream: l
+
+# Created at 2019-10-22T13:08:02.469
+Unexpected IOException with stream: o
+
+# Created at 2019-10-22T13:08:02.477
+Unexpected IOException with stream: w
+
+# Created at 2019-10-22T13:08:02.477
+Unexpected IOException with stream: e
+
+# Created at 2019-10-22T13:08:02.477
+Unexpected IOException with stream: d
+
+# Created at 2019-10-22T13:08:02.477
+Unexpected IOException with stream: 
+
+# Created at 2019-10-22T13:08:02.481
+Unexpected IOException with stream: 
+
+

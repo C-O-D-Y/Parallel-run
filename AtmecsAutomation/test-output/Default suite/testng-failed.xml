@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="tests" name="Failed suite [Default Suite]">
+  <test thread-count="3" parallel="tests" name="Test validate firefox(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.atmecs.testScripts.HomePagetestscripts">
+        <methods>
+          <include name="clickHeaderPartners"/>
+          <include name="validatefooterForContacts" invocation-numbers="0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29"/>
+          <include name="validatefooterForCareers" invocation-numbers="0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29"/>
+          <include name="clickHeaderMedia"/>
+          <include name="validatefooterForInsights" invocation-numbers="0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29"/>
+          <include name="validatefooterForPartner" invocation-numbers="0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29"/>
+          <include name="clickHeaderAboutUs"/>
+          <include name="intitailizeBrowser"/>
+          <include name="clickContactUs"/>
+          <include name="validatefooterForServices" invocation-numbers="0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29"/>
+          <include name="validatefooterForMedia" invocation-numbers="0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29"/>
+          <include name="clickInsights"/>
+          <include name="clickHeaderCareers"/>
+          <include name="clickHeaderServices"/>
+          <include name="homePageRedirection"/>
+          <include name="validatefooterForAboutUs" invocation-numbers="0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29"/>
+        </methods>
+      </class> <!-- com.atmecs.testScripts.HomePagetestscripts -->
+    </classes>
+  </test> <!-- Test validate firefox(failed) -->
+  <test thread-count="3" parallel="tests" name="Test validate chrome(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.atmecs.testScripts.HomePagetestscripts">
+        <methods>
+          <include name="clickHeaderPartners"/>
+          <include name="validatefooterForContacts" invocation-numbers="0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29"/>
+          <include name="validatefooterForCareers" invocation-numbers="0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29"/>
+          <include name="clickHeaderMedia"/>
+          <include name="validatefooterForInsights" invocation-numbers="0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29"/>
+          <include name="validatefooterForPartner" invocation-numbers="0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29"/>
+          <include name="clickHeaderAboutUs"/>
+          <include name="intitailizeBrowser"/>
+          <include name="clickContactUs"/>
+          <include name="validatefooterForServices" invocation-numbers="0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29"/>
+          <include name="validatefooterForMedia" invocation-numbers="0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29"/>
+          <include name="clickInsights"/>
+          <include name="clickHeaderCareers"/>
+          <include name="clickHeaderServices"/>
+          <include name="homePageRedirection"/>
+          <include name="validatefooterForAboutUs" invocation-numbers="0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29"/>
+        </methods>
+      </class> <!-- com.atmecs.testScripts.HomePagetestscripts -->
+    </classes>
+  </test> <!-- Test validate chrome(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->
